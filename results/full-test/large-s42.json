@@ -1,0 +1,11 @@
+{
+  "model_size": "large",
+  "seed": 42,
+  "parameters": 33544320,
+  "run_directory": "results/final-large-s42-files/final-large-s42",
+  "loss_nats": 1.8778773349952866,
+  "perplexity": 6.539608720406551,
+  "predicted_tokens": 456876,
+  "evaluation_seconds": 82.78502554213628,
+  "checkpoint_sha256": "cf6208ab9385c0c9ac1d5981b1333b5988d98195332a5ec0072785e6f9143a90"
+}

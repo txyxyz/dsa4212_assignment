@@ -1,0 +1,11 @@
+{
+  "model_size": "large",
+  "seed": 43,
+  "parameters": 33544320,
+  "run_directory": "results/final-large-s43-files/final-large-s43-retry1",
+  "loss_nats": 1.8757898182959662,
+  "perplexity": 6.525971416997284,
+  "predicted_tokens": 455841,
+  "evaluation_seconds": 70.94329450000077,
+  "checkpoint_sha256": "161d7352f23081d2f5408976b2357a14dfe0410403449aa8d6537e5bd689bfe2"
+}

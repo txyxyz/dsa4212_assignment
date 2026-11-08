@@ -1,0 +1,22 @@
+{
+  "seed": 43,
+  "model_size": "small",
+  "purpose": "final",
+  "architecture": {
+    "n_embd": 128,
+    "n_layer": 4,
+    "n_head": 4
+  },
+  "seconds": 1800,
+  "batch_size": 16,
+  "context": 128,
+  "learning_rate": 0.0003,
+  "precision": "bfloat16",
+  "device": "NVIDIA A10",
+  "parameters": 7242624,
+  "validation_windows": 40,
+  "max_steps": 0,
+  "eval_interval": 30,
+  "checkpoint_interval": 300,
+  "budget_policy": "Wall time from before initial validation; includes periodic evaluation and checkpointing. Final saving is outside the training allowance."
+}

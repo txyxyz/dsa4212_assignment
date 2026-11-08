@@ -1,0 +1,11 @@
+{
+  "model_size": "small",
+  "seed": 43,
+  "parameters": 7242624,
+  "run_directory": "results/final-small-s43-retry1-files/final-small-s43-retry1",
+  "loss_nats": 2.1648474263511925,
+  "perplexity": 8.713272399666106,
+  "predicted_tokens": 455841,
+  "evaluation_seconds": 27.747080707922578,
+  "checkpoint_sha256": "a5fa822330d8c95d66e4a78fb79ff6e736b4e55022602547d10f5725e0ad4fa0"
+}

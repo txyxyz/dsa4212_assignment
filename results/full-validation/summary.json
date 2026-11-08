@@ -1,0 +1,46 @@
+{
+  "split": "validation",
+  "context": 128,
+  "stride": 127,
+  "device": "cpu",
+  "precision": "float32",
+  "batch_size": 8,
+  "torch_version": "2.14.1",
+  "validation_sha256": "9dbb23944517d2012d220fccb27947e8aaabc8fd81999848691d807dc1e2f38e",
+  "note": "Windowed next-token loss in nats, including EOS; context resets each window. Two-seed sample standard deviations have limited precision.",
+  "results": [
+    {
+      "model_size": "small",
+      "seeds": [
+        42,
+        43
+      ],
+      "loss_nats_mean": 2.1639207931372657,
+      "loss_nats_sample_std": 0.0013104572584806936,
+      "perplexity_mean": 8.705205869082516,
+      "perplexity_sample_std": 0.011407796952610136
+    },
+    {
+      "model_size": "medium",
+      "seeds": [
+        42,
+        43
+      ],
+      "loss_nats_mean": 1.9383323661738774,
+      "loss_nats_sample_std": 0.001195246114001314,
+      "perplexity_mean": 6.947158474106714,
+      "perplexity_sample_std": 0.008303562192430933
+    },
+    {
+      "model_size": "large",
+      "seeds": [
+        42,
+        43
+      ],
+      "loss_nats_mean": 1.8760610659898367,
+      "loss_nats_sample_std": 0.0003836021674339954,
+      "perplexity_mean": 6.527742051931627,
+      "perplexity_sample_std": 0.0025040559381587376
+    }
+  ]
+}

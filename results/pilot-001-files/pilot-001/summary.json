@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "seconds": 300,
+  "batch_size": 16,
+  "context": 128,
+  "learning_rate": 0.0003,
+  "precision": "bfloat16",
+  "device": "NVIDIA A10",
+  "parameters": 7242624,
+  "validation_windows": 40,
+  "max_steps": 0,
+  "budget_policy": "Wall time from before initial validation; includes periodic evaluation and checkpointing. Final saving is outside the training allowance.",
+  "steps": 14949,
+  "training_elapsed_seconds": 298.018769491,
+  "total_elapsed_seconds": 303.472088822,
+  "peak_gpu_bytes": 1447744512,
+  "status": "preliminary"
+}

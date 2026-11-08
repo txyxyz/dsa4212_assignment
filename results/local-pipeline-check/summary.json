@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "seconds": 120,
+  "batch_size": 2,
+  "context": 128,
+  "learning_rate": 0.0003,
+  "precision": "float32",
+  "device": "cpu",
+  "parameters": 7242624,
+  "validation_windows": 40,
+  "max_steps": 2,
+  "budget_policy": "Wall time from before initial validation; includes periodic evaluation and checkpointing. Final saving is outside the training allowance.",
+  "steps": 2,
+  "training_elapsed_seconds": 0.4917831670027226,
+  "total_elapsed_seconds": 0.8912637080065906,
+  "peak_gpu_bytes": null,
+  "status": "preliminary"
+}
