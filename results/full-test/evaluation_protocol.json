@@ -1,0 +1,15 @@
+{
+  "split": "test",
+  "context": 128,
+  "stride": 127,
+  "precision": "float32",
+  "checkpoint_selection": "Final checkpoint for each of six completed runs",
+  "checkpoints": {
+    "large-42": "cf6208ab9385c0c9ac1d5981b1333b5988d98195332a5ec0072785e6f9143a90",
+    "medium-43": "33cd7b64de340c7f5b80ff3f4dbe6609e62d49e8cde25a04153913dd6d7b9820",
+    "large-43": "161d7352f23081d2f5408976b2357a14dfe0410403449aa8d6537e5bd689bfe2",
+    "small-42": "20308b9821e8b2705936f6a9a06ba6e93fffa43fc7f44f5493665da5bfb4f12e",
+    "medium-42": "e882656a531f4041621985f8bcef6f26997718bfa63a77546c29e43bb9e60499",
+    "small-43": "a5fa822330d8c95d66e4a78fb79ff6e736b4e55022602547d10f5725e0ad4fa0"
+  }
+}

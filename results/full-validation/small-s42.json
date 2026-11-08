@@ -1,0 +1,11 @@
+{
+  "model_size": "small",
+  "seed": 42,
+  "parameters": 7242624,
+  "run_directory": "results/final-small-s42-files/final-small-s42",
+  "loss_nats": 2.162994159923339,
+  "perplexity": 8.697139338498927,
+  "predicted_tokens": 455841,
+  "evaluation_seconds": 28.971515000099316,
+  "checkpoint_sha256": "20308b9821e8b2705936f6a9a06ba6e93fffa43fc7f44f5493665da5bfb4f12e"
+}

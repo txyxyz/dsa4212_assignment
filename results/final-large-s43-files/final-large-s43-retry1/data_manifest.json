@@ -1,0 +1,19 @@
+{
+  "vocab_size": 50257,
+  "eos_id": 50256,
+  "separator": "<|endoftext|>",
+  "splits": {
+    "train": {
+      "stories": 99868,
+      "tokens": 22323961,
+      "source_sha256": "89997995a788229fc50d9025b8b28d6f3bbee277ee39baea861edd77f8eeeaed",
+      "tokens_sha256": "104f56eea8b500d7d046da7f783c3c3d68b63de357167c00cd9220f28016a3fb"
+    },
+    "valid": {
+      "stories": 1994,
+      "tokens": 455842,
+      "source_sha256": "b49256cf97b7f6f28203de24707dea580cefeabc8cad4147c1a6c09b2f3e8b26",
+      "tokens_sha256": "9dbb23944517d2012d220fccb27947e8aaabc8fd81999848691d807dc1e2f38e"
+    }
+  }
+}

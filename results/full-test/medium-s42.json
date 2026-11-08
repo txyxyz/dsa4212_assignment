@@ -1,0 +1,11 @@
+{
+  "model_size": "medium",
+  "seed": 42,
+  "parameters": 17637632,
+  "run_directory": "results/final-medium-s42-files/final-medium-s42",
+  "loss_nats": 1.9405698963832836,
+  "perplexity": 6.962717867900446,
+  "predicted_tokens": 456876,
+  "evaluation_seconds": 59.07290458283387,
+  "checkpoint_sha256": "e882656a531f4041621985f8bcef6f26997718bfa63a77546c29e43bb9e60499"
+}
