@@ -1,7 +1,8 @@
 # Training a small language model under a fixed compute budget
 
-Start with [REPORT_HANDOFF.md](REPORT_HANDOFF.md) for the report-writing handoff,
-verified results, limitations, and outstanding tasks. Group details are in authors.md.
+This repository contains the implementation and experimental results for training small language models under a fixed computational budget.
+
+Group members are listed in authors.md. The experimental protocol is documented in EXPERIMENT_PROTOCOL.md.
 
 ## Current status
 
