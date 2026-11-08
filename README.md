@@ -4,13 +4,6 @@ This repository contains the implementation and experimental results for trainin
 
 Group members are listed in authors.md. The experimental protocol is documented in EXPERIMENT_PROTOCOL.md.
 
-## Current status
-
-Six final GPT models were trained from random weights on TinyStories: three sizes
-and two seeds, each with a declared 1800-second training allowance on Modal's A10
-GPU option. Full validation and held-out test evaluation are complete.
-The submitted report has not been written yet. See report/README.md.
-
 ## Files
 
 - code/: dataset preparation, tokenization, training, Modal launcher and evaluation.
