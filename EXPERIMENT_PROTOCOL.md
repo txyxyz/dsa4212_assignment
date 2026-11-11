@@ -1,8 +1,5 @@
 # Final comparison protocol
 
-Declared 2026-11-01, after preliminary pilots and before final comparisons.
-This supersedes TRAINING.md's earlier proposed 9000-second budget.
-
 Question: Which of three GPT model sizes gives the lowest held-out predictive
 loss with a fixed allowance of 1800 seconds on one NVIDIA A10 per training run?
 
