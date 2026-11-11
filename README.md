@@ -11,12 +11,8 @@ Group members are listed in authors.md. The experimental protocol is documented 
 - EXPERIMENT_PROTOCOL.md: final experiment design and budget definition.
 - results/: small numerical artifacts, settings, metrics and evaluation summaries.
 - results/full-validation/ and results/full-test/: authoritative full evaluation.
-- report/: report source will go here; no final report exists yet.
-
-Large data files, model checkpoints and virtual environments are deliberately
-excluded. The original checkpoints remain on the experiment owner's Mac and
-Modal volume `small-llm-results`; request access/copies before local evaluation.
-Do not run training just to write the report: use the saved numerical results.
+- report/: the folder contains the report source
+  
 
 ## Environment
 
