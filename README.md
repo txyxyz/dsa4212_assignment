@@ -18,6 +18,7 @@ code/
     modal_train.py           Modal GPU training launcher
     evaluate_validation.py   Full validation and test evaluation
 dataset_cleaning.ipynb        Inspect data and remove exact cross-split overlaps
+comparison_plots.ipynb        Comparison plots and story-generation examples
 results/                     Configurations, training logs and evaluation results
 report/                      Report source, bibliography and figures
 ```
@@ -292,6 +293,31 @@ The evaluator checks data manifests and checkpoint steps and requires all six fi
 
 Training-time monitoring scores are computed on a small validation subset and differ from the full evaluation results reported here.
 
+## Reproducing figures and story examples
+
+Open `comparison_plots.ipynb` from the repository root.
+
+The plotting cells read saved numerical results and do not require checkpoints. They produce:
+
+- Monitoring validation loss against training time
+- Full validation/test loss and perplexity comparisons
+- Model size versus tokens processed and test performance
+
+Figures are saved as PNG files in:
+
+```text
+report/
+```
+
+Story-generation cells require the saved tokenizer and all six checkpoints. Set `CHECKPOINT_ROOT` in the first code cell to the project directory containing those artifacts, with the same relative run-directory structure.
+
+The notebook uses three fixed prompts across all six models, with temperature `0.8`, top-k `50`, at most `80` new tokens, and a fixed generation seed per prompt.
+
+All 18 continuations are saved in:
+
+```text
+results/story-examples/samples.json
+```
 
 ## Reproducibility and limitations
 
