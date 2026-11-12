@@ -206,7 +206,37 @@ Full validation and test results are saved in `results/full-validation/` and `re
 
 Each folder contains individual run scores, a comparison CSV, and a summary of means and standard deviations across seeds. Analysis and interpretation are provided in the report.
 
-## 11. Limitations
+## 11. Qualitative story generation
+
+The final checkpoints are compared using three fixed prompts:
+
+1. "Once upon a time, Mia found a small red key."
+2. "Tom wanted to help his friend, but"
+3. "The little dog was afraid of the rain."
+
+Shared generation settings:
+
+- Sampling enabled
+- Temperature: 0.8
+- Top-k: 50
+- Maximum new tokens: 80
+- Generation seeds: 2026, 2027, and 2028 for the respective prompts
+
+Generation seeds are separate from training seeds.
+
+All three prompts are used for all six checkpoints, producing 18 saved continuations. Outputs may stop at an end-of-story token or be truncated at the generation limit.
+
+Samples are saved in:
+
+```text
+results/story-examples/samples.json
+```
+
+Inspect relevance to the prompt, grammar, character consistency, cause-and-effect relationships, and repetition. Include failures as well as successes.
+
+These prompts were selected after numerical evaluation. The examples are qualitative illustrations, not an independent benchmark or a quantitative measure of story quality.
+
+## 12. Limitations
 
 - TinyStories is a synthetic, narrow-domain dataset, so conclusions may not generalize to broader language tasks.
 - Buffered streaming shuffle is not uniform whole-corpus sampling.
